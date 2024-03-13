@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D276B5D2BA1B7FC00526FC9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5D276B5C2BA1B7FC00526FC9 /* .gitignore */; };
+		5D4B2E752B95DE280089035C /* FormattingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4B2E742B95DE280089035C /* FormattingError.swift */; };
+		5DA3C63B2B95E487007EE15F /* CurrencyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA3C63A2B95E487007EE15F /* CurrencyUtils.swift */; };
 		5DE9553E2B909E500042E210 /* PizzaDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE9553D2B909E500042E210 /* PizzaDeliveryApp.swift */; };
 		5DE955402B909E500042E210 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE9553F2B909E500042E210 /* HomePage.swift */; };
 		5DE955422B909E510042E210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE955412B909E510042E210 /* Assets.xcassets */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D276B5C2BA1B7FC00526FC9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5D4B2E742B95DE280089035C /* FormattingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattingError.swift; sourceTree = "<group>"; };
+		5DA3C63A2B95E487007EE15F /* CurrencyUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyUtils.swift; sourceTree = "<group>"; };
 		5DE9553A2B909E500042E210 /* PizzaDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE9553D2B909E500042E210 /* PizzaDeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaDeliveryApp.swift; sourceTree = "<group>"; };
 		5DE9553F2B909E500042E210 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
@@ -38,9 +44,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D4B2E732B95DDCA0089035C /* exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				5D4B2E742B95DE280089035C /* FormattingError.swift */,
+			);
+			path = exceptions;
+			sourceTree = "<group>";
+		};
+		5DA3C6392B95E46F007EE15F /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				5DA3C63A2B95E487007EE15F /* CurrencyUtils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		5DE955312B909E500042E210 = {
 			isa = PBXGroup;
 			children = (
+				5D276B5C2BA1B7FC00526FC9 /* .gitignore */,
 				5DE9553C2B909E500042E210 /* PizzaDelivery */,
 				5DE9553B2B909E500042E210 /* Products */,
 			);
@@ -104,6 +127,8 @@
 		5DE9554E2B909EA70042E210 /* shared */ = {
 			isa = PBXGroup;
 			children = (
+				5DA3C6392B95E46F007EE15F /* utils */,
+				5D4B2E732B95DDCA0089035C /* exceptions */,
 			);
 			path = shared;
 			sourceTree = "<group>";
@@ -174,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D276B5D2BA1B7FC00526FC9 /* .gitignore in Resources */,
 				5DE955532B90F4B70042E210 /* image.webp in Resources */,
 				5DE955452B909E510042E210 /* Preview Assets.xcassets in Resources */,
 				5DE955422B909E510042E210 /* Assets.xcassets in Resources */,
@@ -187,7 +213,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DA3C63B2B95E487007EE15F /* CurrencyUtils.swift in Sources */,
 				5DE955402B909E500042E210 /* HomePage.swift in Sources */,
+				5D4B2E752B95DE280089035C /* FormattingError.swift in Sources */,
 				5DE955512B909F920042E210 /* Pizza.swift in Sources */,
 				5DE9553E2B909E500042E210 /* PizzaDeliveryApp.swift in Sources */,
 				5DE955552B9134740042E210 /* PizzaListItem.swift in Sources */,
